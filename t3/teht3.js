@@ -1,8 +1,8 @@
 'use strict';
 
-const kohde = document.querySelector('#target');
+const kohde = document.getElementById('#target');
 
-const suvi1 = +prompt('syötä eka sivu');
+const sivu1 = +prompt('syötä eka sivu');
 const sivu2 = +prompt('syötä toka sivu');
 const sivu3 = +prompt('syötä kolmas sivu');
 
